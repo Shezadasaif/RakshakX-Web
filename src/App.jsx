@@ -203,7 +203,7 @@ export default function App() {
           <p>These Terms are governed by Indian law. Disputes fall under Indian courts.</p>
           
           <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>12. Contact Information</h3>
-          <p>Email: rakshakx.team@gmail.com<br/>Address: [Insert Company Address]</p>
+          <p>Email: rakshakx.team@gmail.com<br/>Address: [Madhubani,Bihar]</p>
           
           <p style={{ marginTop: "10px" }}>By using RakshakX, you acknowledge that you have read, understood, and agree to these Terms and Conditions.</p>
         </div>
