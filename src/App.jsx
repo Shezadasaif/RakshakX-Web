@@ -148,7 +148,7 @@ export default function App() {
 
       {/* Terms & Conditions */}
       <section id="terms" style={sectionStyle}>
-        <div className="bg-gray-800 p-6 rounded-lg text-gray-300 max-h-[80vh] overflow-y-auto" style={{ backgroundColor: "#222", padding: "20px", borderRadius: "10px", maxHeight: "500px", overflowY: "auto" }}>
+        <div style={{ backgroundColor: "#222", padding: "20px", borderRadius: "10px" }}>
           <h2 style={{ color: "#9b59b6", fontSize: "24px", marginBottom: "10px" }}>Terms and Conditions</h2>
           <p><strong>Effective Date:</strong> [Insert Date]</p>
           <p>Welcome to <strong>RakshakX</strong>. By downloading, installing, or using this application (“App”), you agree to comply with and be bound by these Terms and Conditions. If you do not agree, do not use the App.</p>
@@ -185,7 +185,7 @@ export default function App() {
           <p>Free users: SMS + location. Premium users: additional features. Fees, billing, and refunds are explained in-app.</p>
           
           <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>6. Privacy and Data Usage</h3>
-          <p>The App collects personal info like location and contacts for emergency purposes only.</p>
+          <p>The App collects personal info like contacts and sos videos for emergency purposes only.</p>
           
           <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>7. Limitation of Liability</h3>
           <p>RakshakX and developers are not liable for damages from use or inability to use the App.</p>
@@ -203,7 +203,7 @@ export default function App() {
           <p>These Terms are governed by Indian law. Disputes fall under Indian courts.</p>
           
           <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>12. Contact Information</h3>
-          <p>Email: shezadasaif15@gmail.com<br/>Address: [Insert Company Address]</p>
+          <p>Email: rakshakx.team@gmail.com<br/>Address: [Insert Company Address]</p>
           
           <p style={{ marginTop: "10px" }}>By using RakshakX, you acknowledge that you have read, understood, and agree to these Terms and Conditions.</p>
         </div>
