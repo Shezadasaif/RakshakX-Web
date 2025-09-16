@@ -146,23 +146,66 @@ export default function App() {
         <p>RakshakX is a personal safety app that helps you alert your emergency contacts with live location and SOS alerts instantly.</p>
       </section>
 
-      {/* Terms */}
+      {/* Terms & Conditions */}
       <section id="terms" style={sectionStyle}>
-        <div style={{ backgroundColor: "#222", padding: "20px", borderRadius: "10px", maxHeight: "500px", overflowY: "auto" }}>
+        <div className="bg-gray-800 p-6 rounded-lg text-gray-300 max-h-[80vh] overflow-y-auto" style={{ backgroundColor: "#222", padding: "20px", borderRadius: "10px", maxHeight: "500px", overflowY: "auto" }}>
           <h2 style={{ color: "#9b59b6", fontSize: "24px", marginBottom: "10px" }}>Terms and Conditions</h2>
           <p><strong>Effective Date:</strong> [Insert Date]</p>
-          <p>Welcome to <strong>RakshakX</strong>. By downloading, installing, or using this application (“App”), you agree to comply with and be bound by the following Terms and Conditions.</p>
+          <p>Welcome to <strong>RakshakX</strong>. By downloading, installing, or using this application (“App”), you agree to comply with and be bound by these Terms and Conditions. If you do not agree, do not use the App.</p>
+          
           <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>1. Acceptance of Terms</h3>
-          <p>By using RakshakX, you agree to these terms and our Privacy Policy.</p>
-          <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>2. Service Description</h3>
-          <ul>
-            <li>Send live location to saved contacts</li>
-            <li>Send SMS alerts</li>
-            <li>Emergency calls (premium users)</li>
-            <li>Back camera video recording (premium users)</li>
+          <p>By using RakshakX, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions, our Privacy Policy, and any other guidelines.</p>
+          
+          <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>2. Description of the Service</h3>
+          <p>RakshakX is an emergency SOS and personal safety application. Features include:</p>
+          <ul style={{ textAlign: "left", marginLeft: "20px" }}>
+            <li>Sending live location to saved emergency contacts</li>
+            <li>Sending SMS alerts</li>
+            <li>Making emergency calls (premium users)</li>
+            <li>Back camera video recording during emergencies (premium users)</li>
           </ul>
-          <p>The app is intended for emergency situations only.</p>
-          <p style={{ marginTop: "10px" }}>Contact: shezadasaif15@gmail.com</p>
+          <p>The App is intended for <strong>emergency situations only</strong>.</p>
+          
+          <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>3. Eligibility</h3>
+          <ul style={{ textAlign: "left", marginLeft: "20px" }}>
+            <li>You must be at least 13 years old to use this App.</li>
+            <li>Users under 18 need parental consent.</li>
+            <li>No illegal or harmful use allowed.</li>
+          </ul>
+          
+          <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>4. User Responsibilities</h3>
+          <ul style={{ textAlign: "left", marginLeft: "20px" }}>
+            <li>Provide accurate emergency contact info.</li>
+            <li>Ensure contacts consent to alerts.</li>
+            <li>No false alarms or misuse.</li>
+            <li>Responsible for your device/data usage.</li>
+          </ul>
+          
+          <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>5. Payment and Subscription</h3>
+          <p>Free users: SMS + location. Premium users: additional features. Fees, billing, and refunds are explained in-app.</p>
+          
+          <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>6. Privacy and Data Usage</h3>
+          <p>The App collects personal info like location and contacts for emergency purposes only.</p>
+          
+          <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>7. Limitation of Liability</h3>
+          <p>RakshakX and developers are not liable for damages from use or inability to use the App.</p>
+          
+          <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>8. Indemnification</h3>
+          <p>You agree to indemnify RakshakX for any claims arising from misuse of the App.</p>
+          
+          <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>9. Modifications to the Terms</h3>
+          <p>RakshakX may update these Terms anytime. Continued use = acceptance.</p>
+          
+          <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>10. Termination</h3>
+          <p>Access may be terminated if you violate these Terms or misuse the App.</p>
+          
+          <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>11. Governing Law</h3>
+          <p>These Terms are governed by Indian law. Disputes fall under Indian courts.</p>
+          
+          <h3 style={{ color: "#bb8fce", marginTop: "10px" }}>12. Contact Information</h3>
+          <p>Email: shezadasaif15@gmail.com<br/>Address: [Insert Company Address]</p>
+          
+          <p style={{ marginTop: "10px" }}>By using RakshakX, you acknowledge that you have read, understood, and agree to these Terms and Conditions.</p>
         </div>
       </section>
     </div>
